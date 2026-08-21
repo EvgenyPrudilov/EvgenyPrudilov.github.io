@@ -1,0 +1,15 @@
+---
+---
+@import "{{ site.theme }}";
+
+/* Расширяем общий контейнер сайта */
+.wrapper {
+  width: 1060px !important; /* Было 860px (60px отступы + 200px сайдбар + 600px текст) */
+  max-width: 95% !important; 
+}
+
+/* Расширяем саму текстовую область статьи */
+section {
+  width: 800px !important; /* Было 640px. Можете поставить 900px или больше */
+  float: left !important;
+}
