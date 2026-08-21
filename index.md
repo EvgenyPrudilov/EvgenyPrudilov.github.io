@@ -1,5 +1,6 @@
 ---
 layout: home
+theme: jekyll-theme-minimal
 ---
 
 # Добро пожаловать в мой блог!
