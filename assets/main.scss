@@ -2,9 +2,14 @@
 ---
 @import "minima";
 
-// Изменяем ширину контента (по умолчанию было 800px)
-$content-width: 1000px; 
+/* Принудительное расширение контейнера для старых и новых версий Minima */
+.wrapper, .site-header .wrapper, .site-footer .wrapper {
+    max-width: 1200px !important;
+    padding-right: 30px !important;
+    padding-left: 30px !important;
+}
 
-.wrapper {
-  max-width: $content-width;
+/* Расширяем область самой статьи, если она ограничена отдельно */
+.post {
+    max-width: 100% !important;
 }
