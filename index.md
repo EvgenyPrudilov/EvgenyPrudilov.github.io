@@ -5,11 +5,4 @@ layout: home
 # Добро пожаловать в мой блог!
 Ниже представлены мои заметки:
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a> 
-      — {{ post.date | date_to_string }}
-    </li>
-  {% endfor %}
-</ul>
+[первую заметку]({% post_url 2026-08-21-my-first-note %})
