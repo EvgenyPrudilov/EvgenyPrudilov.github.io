@@ -1,0 +1,10 @@
+---
+---
+@import "minima";
+
+// Изменяем ширину контента (по умолчанию было 800px)
+$content-width: 1000px; 
+
+.wrapper {
+  max-width: $content-width;
+}
