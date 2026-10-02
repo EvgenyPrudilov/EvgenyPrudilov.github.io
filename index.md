@@ -1,15 +1,12 @@
----
-layout: home
-theme: jekyll-theme-minimal
----
-
-# Добро пожаловать в мой блог!
-Ниже представлены мои заметки:
-
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой первый сайт</title>
+</head>
+<body>
+    <h1>Привет, мир!</h1>
+    <p>Мой сайт на GitHub Pages успешно работает.</p>
+</body>
+</html>
